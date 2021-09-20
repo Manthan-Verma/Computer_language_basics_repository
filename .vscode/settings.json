@@ -1,0 +1,7 @@
+{
+    "github-enterprise.uri": " vscode://vscode.github-authentication/did-authenticate?windowid=1&code=ce12515be801b31c22be&state=18073657-0096-401b-9321-d40e20af50a1 ",
+    "files.associations": {
+        "*.cu": "cuda-cpp",
+        "iostream": "cpp"
+    }
+}
