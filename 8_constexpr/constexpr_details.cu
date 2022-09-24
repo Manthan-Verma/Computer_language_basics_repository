@@ -6,10 +6,10 @@ int main()
 {
     // Behaves As a constxpr function
     constexpr int i = getnumber();                  //      (Solved at Compile time only)
-    //constexpr int j = get();          -------> This will not work (See the function0
+    //constexpr int j = get();          -------> This will not work (See the function)
     int arr[i];                 //          -----> Works now 
 
-    // Behaces as constexpr function
+    // Behaves as constexpr function
     const int j = getnumber();          // works with const also                (solved at runtime only)
     int arre[j];
 

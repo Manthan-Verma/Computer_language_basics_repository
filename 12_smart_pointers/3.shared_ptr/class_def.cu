@@ -41,6 +41,7 @@ void Employee_smart::set_project(std::unique_ptr<Project> &pr)
 {
 	m_project = std::move(pr);
 }
+
 const std::unique_ptr<Project>& Employee_smart::Getproject() const{
 	return m_project;
 }

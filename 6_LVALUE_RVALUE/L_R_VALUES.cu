@@ -3,7 +3,7 @@
 int main()
 {
     int x{ 9 }, y{ 90 }, z{ 100 };      // HERE x , y and z are L_vlues , also 9 , 90 and 100 are R_VALUES
-    // We cannot assign anything top R values becuase they are tempraroies as in above eg 9 , 90, 100 are R values 
+    // We cannot assign anything to R values becuase they are tempraroies as in above eg 9 , 90, 100 are R values 
 
     int sum = (x + y) * z;      //  Here (x+y)*z returns a R value  
     // R values cannot persist beyond the expression as in above eg x+y*z is not availaible beyond above line 

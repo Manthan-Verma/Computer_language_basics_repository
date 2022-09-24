@@ -2,20 +2,21 @@
 
 
 //                IN C++
-/*
+
 int main()
 {
 	float* var, * var2, * var3;
 	var = new float[Nx * Ny * Nz]{};				// Allocates the memory in C++ and empty {} initialize it to ZERO 
 	var2 = new float{};								// Allocates only 1 memory address
 
+	// std::cout<<"\n val = "<<var[90];
 	delete var2;									// Frees the memory as free in c 
 	var2 = nullptr;										// ALWAYS DO THIS AFTER DELETE 
 
 	delete[] var;										// deletes the pointer array 
 	var = nullptr;
 }
-*/
+
 
 
 

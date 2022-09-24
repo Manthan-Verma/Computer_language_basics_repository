@@ -42,7 +42,7 @@ void smart_p_unique()
     e3->set_project(prj);
     
     show_info_smart(e1);
-    show_info_smart(e2);      //  ---> this will shoe segmentation fault 
+    show_info_smart(e2);      //  ---> this will show segmentation fault 
     //because Here we cannot do anything because we cannot share unique ptr with more than once in our code 
     // as dome in line no 36 and 38 ... etc; because its moved at first attempt
     prj->show_project_details();

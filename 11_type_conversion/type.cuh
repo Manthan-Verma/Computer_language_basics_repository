@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cuda.h>
-#include<memory.h>
+// #include<memory.h>
 
 class test
 {
